@@ -11,10 +11,5 @@ const breedDetailsFromFile = function (breed, callback) {
 };
 
 
-const logBreedDetails = breed => {
-    console.log('Return Value: ', breed);
-};
-
-
 
 module.exports = breedDetailsFromFile;
